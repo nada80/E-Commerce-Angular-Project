@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductsCategoriesComponent } from './products-categories/products-categories.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
     FooterComponent,
     ProductsComponent,
     ProductsCategoriesComponent,
-    ShoppingCartComponent
+    ShoppingCartComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
